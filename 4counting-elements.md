@@ -3,7 +3,7 @@
 ### 4-1.Perm Check
 https://app.codility.com/demo/results/trainingBJ8AXR-HEC/
 
-```=c
+```c
 int solution(int A[], int N)
 {
     int *hasharr=malloc(sizeof(int) *N );
@@ -32,7 +32,7 @@ int solution(int A[], int N)
     }
     return 1;
 }
-``
+```
 
 
 ### 4-2.FrogRiverOne
