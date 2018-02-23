@@ -1,11 +1,43 @@
 ## Lesson 4 Counting Elements 
 
-### Perm Check
+### 4-1.Perm Check
 https://app.codility.com/demo/results/trainingBJ8AXR-HEC/
 
-### FrogRiverOne
+```=c
+int solution(int A[], int N)
+{
+    int *hasharr=malloc(sizeof(int) *N );
+    int i;
+    memset(hasharr,0,sizeof(int)*N);
+    for(i=0; i<N; i++)
+    {
+        if(A[i]<=N && A[i]>=1)
+        {
+            if(hasharr[A[i]-1]==0){  //do know why we have to check this????
+                hasharr[A[i]-1]=1; 
+            }
+            else{
+                return 0;
+            }
+        }
+        else
+            return 0;  // A[3]={-1,1,2}
+    }
+    for(i=0; i<N; i++)
+    {
+        if(hasharr[i]==0)
+        {
+            return 0;   //A[4]={1,2,3,5}
+        }
+    }
+    return 1;
+}
+``
 
-### Missing integer
+
+### 4-2.FrogRiverOne
+
+### 4-3.Missing integer
 ##### 1. XOR sum
         
     Suppose you have numbers from 1 to N and you have to find their XOR sum 
@@ -30,4 +62,4 @@ ex.
 [2,3,4]  則 最後掃描hassarr 會發現 hasharr[0]=0  所以 return 1;
 https://app.codility.com/demo/results/training8R2VH7-P47/
 
-### MaxCounters
+### 4-4.MaxCounters
