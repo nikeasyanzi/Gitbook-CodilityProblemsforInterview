@@ -1,39 +1,50 @@
 ## Lesson 4 Counting Elements 
 
 ### 4-1.Perm Check
-https://app.codility.com/demo/results/trainingBJ8AXR-HEC/
+
+Description: 
+A non-empty zero-indexed array A consisting of N integers is given.
+A permutation is a sequence containing each element from 1 to N once, and only once.
+
+https://app.codility.com/demo/results/trainingZQCD6P-WUF/
 
 ```c
 int solution(int A[], int N)
 {
-    int *hasharr=malloc(sizeof(int) *N );
-    int i;
-    memset(hasharr,0,sizeof(int)*N);
-    for(i=0; i<N; i++)
+int *hasharr=malloc(sizeof(int) *N );
+int i;
+memset(hasharr,0,sizeof(int)*N);
+int isPerm=1;
+for(i=0; i<N; i++)
+{
+    if(A[i]<=N && A[i]>=1) //check if the number excesses the range
     {
-        if(A[i]<=N && A[i]>=1)
-        {
-            if(hasharr[A[i]-1]==0){  //do know why we have to check this????
-                hasharr[A[i]-1]=1; 
-            }
-            else{
-                return 0;
-            }
+        if(hasharr[A[i]-1]==0){ //check if the number is repeteted
+            hasharr[A[i]-1]=1;
         }
         else
-            return 0;  // A[3]={-1,1,2}
-    }
-    for(i=0; i<N; i++)
-    {
-        if(hasharr[i]==0)
         {
-            return 0;   //A[4]={1,2,3,5}
+            isPerm= 0;
+            break;
         }
     }
-    return 1;
+    else{    
+        isPerm= 0;    
+        break;
+    }
+}
+free(hasharr);
+
+return isPerm;
 }
 ```
+這題應該要把想法單純化
 
+1.檢查數值是不是在1-N之間
+2.檢查有沒有重複   這樣即可
+
+不用去思考負數或零的問題
+不用sum的方法，因為有overflow的風險
 
 ### 4-2.FrogRiverOne
 
