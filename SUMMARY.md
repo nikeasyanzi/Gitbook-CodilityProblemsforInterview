@@ -11,4 +11,5 @@
 * [8.Leaders](8leaders.md)
 * [9.Maximum Slice Problem](9maximum-slice-problem.md)
 * [16.Greedy Algorithms](16greedy-algorithms.md)
+* [Misc](misc.md)
 
