@@ -1,6 +1,8 @@
 ## Lesson 4 Counting Elements 
+https://app.codility.com/programmers/lessons/4-counting_elements/
 
 ### 4-1.Perm Check
+https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
 
 Description: 
 A non-empty zero-indexed array A consisting of N integers is given.

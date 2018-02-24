@@ -5,4 +5,5 @@
 * [2.Arrays](2arrays.md)
 * [3.Time Complexity](3time-complexity.md)
 * [4.Counting Elements](4counting-elements.md)
+* [7.Stacks and Queues](7stacks-and-queues.md)
 
