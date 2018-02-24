@@ -51,6 +51,9 @@ MaxDoubleSliceSum
 TieRopes
 MaxNonoverlappingSegments
 
+## Lesson 17 Dynamic programming
+NumberSolitaire
+MinAbsSum
 
 ## Codility 面試 3 題
 
