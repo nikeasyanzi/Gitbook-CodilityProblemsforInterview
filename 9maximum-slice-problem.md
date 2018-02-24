@@ -7,22 +7,19 @@
 
 這題主要是找 陣列內兩元素相減 差為最大
 
-所以基本上要考慮是 找出  目前該元素 減去 該元素之前的其他元素中最小的
+所以基本上要考慮是 找出  目前該元素 減去 該元素之前的其他元素中最小的 
 
 ```c
 #define MAX(a,b) ((a)>(b))?(a):(b)
 #define MIN(a,b) ((a)<(b))?(a):(b)
 int solution(int A[], int N) {
-
 int i;
-
 int min=A[0];
 int profit=0;
 for (i=1;i<N;i++){
     min=MIN(min,A[i]);  //record who is the smallest element prior to A[i]
     profit=MAX(profit, A[i]-min);  //renew profit
     //printf("i=%d, min=%d profit=%d\n",i,min,profit);
-
 }
     //printf("profit=%d\n",profit);
     return profit;
