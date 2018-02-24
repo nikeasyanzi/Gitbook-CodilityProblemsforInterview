@@ -26,7 +26,6 @@ PassingCars
 MinAvgTwoSlice
 GenomicRangeQuery
 
-
 ## Lesson 6 Sorting
 Distinct
 Triangle
@@ -47,8 +46,6 @@ Dominator
 MaxSliceSum
 MaxProfit
 MaxDoubleSliceSum
-
-
 
 ## Lesson 16 Greedy algorithms
 TieRopes
