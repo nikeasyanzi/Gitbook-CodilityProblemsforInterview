@@ -15,16 +15,16 @@
 
 1.我的做法是 計算某數出現的次數\(count\)
 
-```
+
 若下一個element 仍為某數(variable A),
-    則count +1.
+則count +1.
 
 if next element is not variable A,
-    substract 1 from the variable A   
+subtract 1 from the variable A   
 
-When counter is zero, the dominator needs to be replaced
-    counter要回設為1, because the new dominator has appear one time.
-```
+When counter is zero, the dominator needs to be replaced 
+counter要回設為1, because the new dominator has appeared one time 
+
 
 2.count　\(dominator 最後的次數\)　 一定不為零，因為最後至少會有一個存活
 
