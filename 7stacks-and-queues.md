@@ -21,12 +21,24 @@ if(S[0]=='\0')
 
 Solution:https://app.codility.com/demo/results/trainingH9X3PD-3CY/
 
+但這題我沒多寫一個 function freeAll()作為memory recollect之用,否則在illegal case產生時,程式立即返回,有memory leak的問題
+
+```c
+freeAll(){
+   struct node *next;
+   while(head!=NULL){
+      head->next=next;
+      free(head);
+      head=next;
+   }
+}
+```   
 
 ### StoneWall
 
 ### Fish
 
 ### Nesting
-
+這題更簡單 只要檢查()是否成對就好 是Bracket那題的簡化版
 
 
