@@ -55,9 +55,6 @@ MaxNonoverlappingSegments
 NumberSolitaire
 MinAbsSum
 
-## Codility 面試 3 題
-
-[http://www.hjwu.me/2017-10-31-codility-tasks/](http://www.hjwu.me/2017-10-31-codility-tasks/)
 
 ###### tags: `interview` `Codility`
 
