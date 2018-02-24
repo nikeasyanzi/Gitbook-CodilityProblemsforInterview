@@ -1,10 +1,8 @@
-
-
 ### Brackets
 
 檢查空字串可使用strlen 或者直接檢查是否為'\0'
-   
-```c  
+
+```c
 if(strlen(S)==0)
    return 1;
 
@@ -16,12 +14,14 @@ if(S[0]=='\0')
 
 1. The left bracket and right bracket are not compatible
 2. We find a right bracket, but the stack is empty
-3. Containing a character that is not a bracket {[( )]}
+3. Containing a character that is not a bracket {\[\( \)\]}
 4. There are some other left brackets left in the stack
 
-Solution:https://app.codility.com/demo/results/trainingH9X3PD-3CY/
+Solution:[https://app.codility.com/demo/results/trainingH9X3PD-3CY/](https://app.codility.com/demo/results/trainingH9X3PD-3CY/)
 
-但這題我沒多寫一個 function freeAll()作為memory recollect之用,否則在illegal case產生時,程式立即返回,有memory leak的問題
+
+
+但這題上傳時,我沒多寫一個 function freeAll\(\)作為memory recollect之用,否則在illegal case產生時,程式立即返回,有memory leak的問題
 
 ```c
 freeAll(){
@@ -32,13 +32,13 @@ freeAll(){
       head=next;
    }
 }
-```   
+```
 
 ### StoneWall
 
 ### Fish
 
 ### Nesting
-這題更簡單 只要檢查()是否成對就好 是Bracket那題的簡化版
 
+這題更簡單 只要檢查\(\)是否成對就好 是Bracket那題的簡化版
 
