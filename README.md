@@ -1,19 +1,21 @@
 # Introduction
 
-Here are some notes regarding (Codility)[https://app.codility.com/programmers/lessons/1-iterations/] questions.
+Here are some notes regarding [Codility](https://app.codility.com/programmers/lessons/1-iterations) questions.
+
 
 ## Lesson 1 Iterations
+
 BinaryGap
 
 ## Lesson 2 Arrays
-OddOccurrencesInArray
+
+OddOccurrencesInArray  
 PAINLESS
 
 ## Lesson 3 Time Complexity
 
-### FrogJmp
-
-### PermMissingElem
+FrogJmp
+PermMissingElem
 
 ## Lesson 4 Counting Elements
 
@@ -85,7 +87,7 @@ if next element is not variable A,
     substract 1 from the variable A   
 
 When counter is zero, the dominator needs to be replaced
-    counter要回設為1, because the new dominator has appear one time. 
+    counter要回設為1, because the new dominator has appear one time.
 ```
 
 2.count　\(dominator 最後的次數\)　 一定不為零，因為最後至少會有一個存活
