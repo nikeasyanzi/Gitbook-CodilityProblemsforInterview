@@ -33,3 +33,5 @@
 
 [https://app.codility.com/demo/results/trainingJ5MW8U-V29/](https://app.codility.com/demo/results/trainingJ5MW8U-V29/)
 
+Reference:
+[【题解】【数组】【Leader】【Codility】Dominator&Equi-leader](http://www.cnblogs.com/wei-li/p/Dominator.html)
