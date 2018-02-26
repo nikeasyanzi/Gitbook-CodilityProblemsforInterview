@@ -55,7 +55,9 @@ We find the only way to saving the retangle is the case that top(stack)==A[i]
 3. 持平 -> ignore
    3. Whne the stack top value is euqal to the current value A[i], that means we can save a retangle by ignoring it.
 
-
+sol:
+https://app.codility.com/demo/results/trainingR5V9TF-SCB/
+https://app.codility.com/demo/results/trainingV2CFQF-48Z/
 
 
 ### Fish
