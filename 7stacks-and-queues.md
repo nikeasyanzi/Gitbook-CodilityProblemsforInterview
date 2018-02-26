@@ -36,6 +36,24 @@ freeAll(){
 
 ### StoneWall
 
+看起來很難  做起來更難的一
+
+觀察一下幾個case
+
+[1,2,1] -> 2
+[1,2,3,2,1] -> 3
+[1,1,1,1] -> 1
+
+會發現其實是分這三種狀況
+
+1. 遞增 -> push
+   1. When the series is increasing, it means we need another retancle. 
+2. 遞減 -> pop
+3. 持平 -> ignore
+
+
+
+
 ### Fish
 
 ### Nesting
