@@ -44,12 +44,16 @@ freeAll(){
 [1,2,3,2,1] -> 3
 [1,1,1,1] -> 1
 
-會發現其實是分這三種狀況
+We find the only way to saving the retangle is the case that top(stack)==A[i]
+
+其實是分這三種狀況
 
 1. 遞增 -> push
-   1. When the series is increasing, it means we need another retancle. 
+   1. When the series is increasing, it means we need another retangle. 
 2. 遞減 -> pop
+   2. When the series is decreasing, it means we need to pop out the stack until the stack top value is less than or equal to the current value A[i]
 3. 持平 -> ignore
+   3. Whne the stack top value is euqal to the current value A[i], that means we can save a retangle by ignoring it.
 
 
 
