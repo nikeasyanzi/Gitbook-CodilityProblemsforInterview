@@ -1,5 +1,10 @@
 ## Lesson 6 Sorting
+
 ### Distinct
+
+https://app.codility.com/demo/results/trainingXSQY46-5K2/
+
+
 
 ### Triangle
 
@@ -15,10 +20,9 @@
 參考資料  
 [【题解】【数组】【Leader】【Codility】Dominator&Equi-leader](http://www.cnblogs.com/wei-li/p/Dominator.html)
 
-
-
-
 ### MaxProductOfThree
+
 ### NumberOfDiscIntersections
+
 
 

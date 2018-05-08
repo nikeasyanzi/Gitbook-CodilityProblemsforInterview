@@ -1,4 +1,3 @@
-
 ## Lesson 5 Prefix Sums
 
 ### CountDiv
@@ -27,8 +26,19 @@ int solution(int A, int B, int K) {
     return countB - countA;
 }
 ```
+
 ### PassingCars
+
+
+
+https://app.codility.com/demo/results/trainingWUYKQ7-7SU/
+
+
+
+
+
 ### MinAvgTwoSlice
+
 ### GenomicRangeQuery
 
 
