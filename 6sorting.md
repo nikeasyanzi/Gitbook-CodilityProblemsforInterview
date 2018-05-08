@@ -2,9 +2,7 @@
 
 ### Distinct
 
-https://app.codility.com/demo/results/trainingXSQY46-5K2/
-
-
+[https://app.codility.com/demo/results/trainingXSQY46-5K2/](https://app.codility.com/demo/results/trainingXSQY46-5K2/)
 
 ### Triangle
 
