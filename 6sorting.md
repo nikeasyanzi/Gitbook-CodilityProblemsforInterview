@@ -4,6 +4,14 @@
 
 [https://app.codility.com/demo/results/trainingXSQY46-5K2/](https://app.codility.com/demo/results/trainingXSQY46-5K2/)
 
+
+
+沒甚麼好說明的  就是hash table
+
+
+
+但其實  應該用 map  以append 新增key value 才是省記憶體的方法
+
 ### Triangle
 
 [Triangle](https://app.codility.com/demo/results/trainingHA6RY3-X7F/#)  

@@ -29,17 +29,15 @@ int solution(int A, int B, int K) {
 
 ### PassingCars
 
-
-
-https://app.codility.com/demo/results/trainingWUYKQ7-7SU/
-
-
-
-
+[https://app.codility.com/demo/results/trainingWUYKQ7-7SU/](https://app.codility.com/demo/results/trainingWUYKQ7-7SU/)
 
 ### MinAvgTwoSlice
 
 ### GenomicRangeQuery
+
+
+
+
 
 
 
